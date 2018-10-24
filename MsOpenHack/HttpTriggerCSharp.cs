@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace Company.Function1
 {
-    public static class DummyFunction
+    public static class HttpTriggerCSharp
     {
         [FunctionName("HttpTriggerCSharp")]
         public static async Task<IActionResult> Run(
