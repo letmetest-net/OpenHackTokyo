@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using Microsoft.Azure.Documents.Client;
 
-namespace Company.Function
+namespace Company.Function  // This line has been added to make a new version of the codes so commit can be created and push can be done.
 {
     public static class CreateRating
     {
