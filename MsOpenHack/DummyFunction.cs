@@ -12,7 +12,7 @@ namespace Company.Function1
 {
     public static class DummyFunction
     {
-        [FunctionName("HttpTriggerCSharp")]
+        [FunctionName("DummyFunction")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
