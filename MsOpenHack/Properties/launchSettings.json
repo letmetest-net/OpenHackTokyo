@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MsOpenHack": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "commandLineArgs": "%APP_DATA%\\npm\\node_modules\\azure"
+    }
+  }
+}
